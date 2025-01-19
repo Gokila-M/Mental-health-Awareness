@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Awareness</title>
+  <link rel="shortcut icon" href="image/portfolio-p.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" /> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- nav-bar  -->
+  <section id="nav-bar" class="container">
+    <header class="nav-bar">
+      <div class="brand"><a href="#hero"><h1>Mental Health</h1></a></div>
+      <div class="nav-list">
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#tips">Tips</a></li>
+          <li><a href="#footer">Test Your Mental Health</a></li>
+        </ul>
+      </div>
+    </header>
+  </section>
+  <!-- End nav-bar  -->
+
+  <!-- Hero Section  -->
+  <section id="hero" class="hero container">
+    <div class="hero-info">
+      <h6 class="hero-info-heading">Mental Health Awareness  </h6>
+      <p class="hero-info-subheading">Promoting emotional well-being and resilience.</p>
+      <!-- <a href="https://www.youtube.com/shorts/hWyKp1ROrmU" type="button" class="hero-info-button">YOU TUBE VIDEO</a> -->
+      
+    </div>
+    <div class="hero-img">
+      <img src="./image/tipsandstra.jpg" alt="">
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About section  -->
+  <section id="about" class="about container">
+    <div class="about-info">
+      <h1 class="about-info-heading">About Us</h1>
+      <p class="about-info-desc">
+        At <strong>Mental Health Awareness</strong>, our mission is to create a supportive and safe space where individuals can access valuable resources, tips, and strategies for improving mental well-being. 
+      </p>
+      <p class="about-info-desc">
+        Mental health matters to everyone, and we're dedicated to fostering understanding and breaking the stigma. Together, we can build a world where mental wellness is prioritized.
+      </p>
+      <h2>Our Focus Areas:</h2>
+      <ul>
+        <li>Promoting mental health education</li>
+        <li>Providing access to resources and tools</li>
+        <li>Encouraging open and supportive conversations</li>
+      </ul>
+      <h2>Contact Us</h2>
+      <p>Email: support@mentalhealthawareness.com</p>
+      <p>Phone: +1 800 123 4567</p>
+    </div>
+    <div class="about-img">
+      <img src="image/img-2.jpg" alt="About Us">
+    </div>
+  </section>
+  
+  <!-- End About section  -->
+
+<!-- Resources Section -->
+<section id="resources" class="resources container">
+  <div class="resources-header">
+    <h1 class="resources-header-heading">Resources</h1>
+    <h2 class="resources-header-desc">Explore helpful tools and articles for mental health</h2>
+  </div>
+  <div class="resources-info">
+    <div class="resource">
+      <div class="resource-card">
+        <div class="resource-front">
+          <i class="fas fa-heart"></i>
+          <h1 class="resource-front-heading">Self-Care Tips</h1>
+        </div>
+        <div class="resource-back">
+          <h1 class="resource-back-heading">Self-Care</h1>
+          <p class="resource-back-desc">
+            <a href="https://www.mentalhealth.org.uk/publications/how-to-mental-health">Visit Resource</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="resource">
+      <div class="resource-card">
+        <div class="resource-front">
+          <i class="fas fa-users"></i>
+          <h1 class="resource-front-heading">Support Groups</h1>
+        </div>
+        <div class="resource-back">
+          <h1 class="resource-back-heading">Find Support</h1>
+          <p class="resource-back-desc">
+            <a href="https://www.nami.org/Support-Education/Support-Groups">Find Support Groups</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="resource">
+      <div class="resource-card">
+        <div class="resource-front">
+          <i class="fas fa-book"></i>
+          <h1 class="resource-front-heading">Mental Health Articles</h1>
+        </div>
+        <div class="resource-back">
+          <h1 class="resource-back-heading">Learn More</h1>
+          <p class="resource-back-desc">
+            <a href="https://www.psychologytoday.com/us/blog/mental-health-101">Read Articles</a>
+          </p>
+        </div>
+      </div>
+    </div>   
+  </div>
+</section>
+<!-- End Resources Section -->
+
+  <!-- start tips section  -->
+
+  <section id="tips" class="tips container">
+    <div class="tips-img">
+      <img src="image/img-3.jpg" alt="Tips Image">
+    </div>
+    <div class="tips-content">
+      <h1 class="tips-heading">Tips and Strategies</h1>
+      <p class="tip-item">Take short breaks to refresh your mind and boost productivity.</p>
+      <p class="tip-item">Practice mindfulness or meditation for mental clarity.</p>
+      <p class="tip-item">Maintain a regular sleep schedule to enhance focus.</p>
+      <p class="tip-item">Stay physically active; exercise helps in reducing stress.</p>
+      <p class="tip-item">Set realistic goals and prioritize tasks effectively.</p>
+      <p class="tip-item">Connect with friends or family for emotional support.</p>
+      <p class="tip-item">Limit screen time and engage in offline activities.</p>
+    </div>
+  </section>
+  
+  <!-- End tips section  -->
+ 
+
+<!-- Modal for displaying the result -->
+<div id="resultModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <h3>Your Mental Health Status:</h3>
+    <p id="result-text"></p>
+  </div>
+</div>
+
+<!-- Footer section -->
+<footer id="footer" class="footer container">
+  <!-- Question and Answer Section -->
+  <section id="questionnaire" class="questionnaire container">
+    <h2 class="section-heading">Mental Health Questionnaire</h2>
+    <form id="quizForm">
+      <div class="question">
+        <p class="question-text">How often do you feel stressed or anxious?</p>
+        <label><input type="radio" name="q1" value="good"> Rarely</label>
+        <label><input type="radio" name="q1" value="average"> Sometimes</label>
+        <label><input type="radio" name="q1" value="bad"> Often</label>
+      </div>
+
+      <div class="question">
+        <p class="question-text">Do you feel motivated to get out of bed each morning?</p>
+        <label><input type="radio" name="q2" value="good"> Always</label>
+        <label><input type="radio" name="q2" value="average"> Sometimes</label>
+        <label><input type="radio" name="q2" value="bad"> Rarely</label>
+      </div>
+
+      <div class="question">
+        <p class="question-text">How would you rate your overall mood in the past week?</p>
+        <label><input type="radio" name="q3" value="good"> Good</label>
+        <label><input type="radio" name="q3" value="average"> Neutral</label>
+        <label><input type="radio" name="q3" value="bad"> Bad</label>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </section>
+</footer>
+
+
+
+  <!-- End Footer section  -->
+
+  <script src="app.js"></script>
+</body>
+</html>
